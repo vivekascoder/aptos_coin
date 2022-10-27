@@ -1,4 +1,4 @@
-module coin::dogecoinV2 {
+module coin::dogecoinV22 {
     use std::signer;
     use std::string;
     use aptos_framework::coin;

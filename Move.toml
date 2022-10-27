@@ -1,5 +1,5 @@
 [package]
-name = 'coin'
+name = 'doge_coin'
 version = '1.0.0'
 upgrade_policy = "compatible"
 
@@ -9,7 +9,7 @@ rev = 'main'
 subdir = 'aptos-move/framework/aptos-framework'
 
 [addresses]
-coin = "0x3"
-admin = "0x3"
-# admin = "0xb921408807cd2c075b63d6ea867485d4dc3e71e04ae3f4b86e8e328c73e10972"
-# coin = "0xb921408807cd2c075b63d6ea867485d4dc3e71e04ae3f4b86e8e328c73e10972"
+# coin = "0x3"
+# admin = "0x3"
+admin = "0xb921408807cd2c075b63d6ea867485d4dc3e71e04ae3f4b86e8e328c73e10972"
+coin = "0xb921408807cd2c075b63d6ea867485d4dc3e71e04ae3f4b86e8e328c73e10972"

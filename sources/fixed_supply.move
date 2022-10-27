@@ -1,4 +1,4 @@
-module coin::dogecoinV3 {
+module coin::dogecoin_fixed_supply {
     use std::signer;
     use std::string;
     use aptos_framework::coin;
@@ -38,6 +38,8 @@ module coin::dogecoinV3 {
             18,
             true
         );
+
+        coin::register<DogeCoin>(account);
 
         let coins = coin::mint<DogeCoin>(SUPPLY, &mint_cap);
         coin::deposit<DogeCoin>(account_addr, coins);
